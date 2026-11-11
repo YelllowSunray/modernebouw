@@ -92,6 +92,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="nl"
       data-style="modern"
+      data-scroll-behavior="smooth"
       suppressHydrationWarning
       className={`${cormorant.variable} ${outfit.variable} ${libre.variable} ${sourceSans.variable} ${fraunces.variable} ${nunito.variable} h-full`}
     >

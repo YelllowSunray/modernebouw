@@ -21,7 +21,7 @@ export default function Home() {
       <section className="hero-bg">
         <div className="wrap hero-stage grid items-center gap-10 py-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12">
           <div className="hero-copy">
-            <p className="eyebrow">Aannemer in {business.city}</p>
+            <p className="eyebrow">Aannemer in Emmen & Drenthe</p>
             <h1 className="hero-title mt-4">
               <span className="only-modern">
                 Strak werk.
@@ -73,6 +73,7 @@ export default function Home() {
                 alt={item.alt}
                 fill
                 priority={item.id === "modern"}
+                loading="eager"
                 sizes="(max-width: 1024px) 100vw, 46vw"
                 data-show={item.id}
                 className="hero-shot"
